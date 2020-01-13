@@ -1,0 +1,80 @@
+{
+    "lists": [
+      {
+        "serviceType": "Plumbing",
+        "serviceLists": [{
+          "id":"0001",
+          "desc":"Sink Replacement"
+        },
+        {
+        "id":"0002",
+        "desc":"Plumbing Service"
+        },
+        {
+            "id":"0003",
+            "desc":"Toilet Repair"
+        },
+        {
+            "id":"0004",
+            "desc":"Toilet Replacement"
+        },
+        {
+            "id":"0005",
+            "desc":"Drain Repair"
+        }        
+        ] 
+      },
+      {
+        "serviceType": "Electrical",
+        "serviceLists": [ 
+            {
+                "id":"0006",
+                "desc":"Light Fixtures"
+            },
+            {
+                "id":"0007",
+                "desc":"Electrical Service"
+            },
+            {
+                "id":"0008",
+                "desc":"Light Switch Installation"
+            },        
+            {
+                "id":"0009",
+                "desc":"Garbage Disposal"
+            }, 
+            {
+                "id":"0010",
+                "desc":"Outlet Installation"
+            }        
+        ]
+      },
+      {
+        "serviceType": "Painting",
+        "serviceLists": [
+            {
+                "id":"0011",
+                "desc":"Doorframe Painting"
+            },
+            {
+                "id":"0012",
+                "desc":"Interior Painting"
+            },
+            {
+                "id":"0013",
+                "desc":"House Painting"
+            },
+            {
+                "id":"0014",
+                "desc":"Bedroom Painting"
+            },   
+            {
+                "id":"0014",
+                "desc":"Wall Painting"
+            }       
+         
+        ]
+    }
+    
+    ]
+  }

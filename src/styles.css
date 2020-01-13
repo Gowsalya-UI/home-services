@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+ul {
+    list-style-type: none;    
+    } 
+a, a:hover,a:active {
+    color: dodgerblue!important;
+}
+.hs-blue-color {
+    color: #66b3ff;
+    }
+
+.hs-center-align {
+    text-align:center;
+    }
+
+.hs-white-color{
+    color: white;
+}
+
+.hs-border-top {
+    border-top: 1px solid gray;
+}
+   

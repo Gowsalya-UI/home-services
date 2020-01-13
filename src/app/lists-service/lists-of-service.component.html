@@ -1,0 +1,14 @@
+<div class="container pt-3">
+    <div class="card-columns">
+   <div class="card" *ngFor="let service of serviceList">
+       <div class="card-header">{{ service.serviceType }}</div>
+       <ul class="card-body">
+         <li *ngFor="let data of service?.serviceLists" class="mb-3">
+          <a routerLink="request" (click)="selectedValue(service.serviceType,data.desc)"> {{ data.desc }}</a>
+         </li>
+        </ul>   
+   </div>   
+  </div>
+  <router-outlet></router-outlet>
+
+</div>
